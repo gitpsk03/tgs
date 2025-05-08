@@ -1,0 +1,154 @@
+.nav-container {
+    height: 8vh;
+    width: 90vw;
+    margin-left: 200px;
+    background-color: transparent;
+    margin-top: -20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.head-search-bar {
+    height: 40px;
+    width: 480px;
+    padding: 8px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.cart-sm-img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.head-search-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.head-search-btn {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.main-heading {
+    font-size: 30px;
+    text-decoration: none;
+    color: brown;
+    font-weight: bold;
+}
+
+.header-para, .header-para-abt {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.account-dropdown {
+    color: black !important;
+    text-decoration: none;
+    font-size: 18px;
+    background: none !important;
+    border: none !important;
+}
+
+.account-dropdown:hover, .account-dropdown:focus {
+    color: blueviolet !important;
+}
+
+.logout-btn {
+    margin-top: 5px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    color: blueviolet;
+}
+
+.nav-con-2 {
+    height: 60px;
+    width: 74vw;
+    margin-left: 225px; 
+    background-color: rgb(43, 119, 226);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 30px;
+}
+
+.category-dropdown {
+    color: white !important;
+    text-decoration: none;
+    font-size: 18px;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    margin-right: 20px;
+}
+.a:hover, .a:focus{
+    color: white !important;
+}
+.category-dropdown:hover, .category-dropdown:focus {
+    color: #ddd !important;
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.dropdown-item {
+    padding: 8px 15px;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #000;
+}
+.nav-para{
+    color: white !important;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 200px;
+}
+
+.nav-para-2{
+    color: white;
+    font-size: 18px;
+}
+.cart-img{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.cart-con{
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+

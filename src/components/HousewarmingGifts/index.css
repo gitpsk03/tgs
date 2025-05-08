@@ -1,0 +1,179 @@
+
+.house-stars-img{
+    height: 30px;
+    width: 50px;
+}
+
+.house-heading-1{
+    margin-left: 50px;
+}
+
+.house-headphone-img-1{
+    height: 300px;
+    width: 150px;
+}
+
+.house-headphone-img-3{
+    height: 250px;
+    width: 200px;
+}
+.house-deals-img{
+    height: 250px;
+    width: 250px;
+}
+
+
+.house-headphone-box{
+    height: 380px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.house-count-para{
+    margin-top: 40px;
+}
+.house-symbol-btn{
+    height: 20px;
+    margin-top: 40px;
+}
+
+.house-shop-btn{
+    width: 80px;
+}
+
+.house-headphone-box-4{
+    height: 380px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.house-headphone-box-2{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.house-headphone-box-3{
+    height: 500px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    color: black;
+    text-decoration: none;
+}
+.prod-add-cart-btn{
+    height: 30px;
+    width: 100px;
+    font-size: 13px;
+    border-radius: 30px;
+}
+.house-headphone-img-2{
+    height: 250px;
+    width: 200px;
+}
+.house-prod-para{
+    color: black;
+    text-decoration: none;
+}
+.house-prod-para-sm{
+    color: black;
+    text-decoration: none;
+    font-size: 10px;
+}
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.house-headphones{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.house-headphones-1{
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+.house-headphones-2{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    color: black;
+}
+
+.house-headphones-section-2{
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 200px
+}
+.house-headphones-section-3{
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+}
+
+.house-fav-para{
+    margin-left: 100px;
+}
+.house-section-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.house-section-category{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.house-section-4{
+    height: 400px;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.house-para-2{
+    margin-left: 200px;
+}   
+
+.house-shop-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.house-prod-container{
+    margin: 0;
+}
+
+.house-results{
+    margin-left: 50px;
+}
+
+.house-para-1{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 30px;
+}

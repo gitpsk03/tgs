@@ -1,0 +1,27 @@
+
+.about-top-container{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+.about-heading{
+    color: black;
+    font-size: 30px;
+}
+.about-main{
+    margin-left: 300px;
+}
+.about-bottom{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.about-li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.about-para{
+    font-size: 18px;
+}
