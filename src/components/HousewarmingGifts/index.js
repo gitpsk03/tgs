@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useContext } from 'react';
+import { BsCurrencyRupee } from "react-icons/bs";
 import Context from '../../context/context';
 import './index.css'
 
@@ -81,7 +82,7 @@ const HousewarmingGifts = () => {
                             <Link to='/product-page' state={{product}}>
                                 <img className="house-headphone-img-2" src={product.img} alt={product.name} />
                                 <p className='house-prod-para'>{product.name}</p>
-                                <p className='house-prod-para'>{product.price}</p>
+                                <p className='house-prod-para'><BsCurrencyRupee/>{product.price}</p>
                                 <p className='house-prod-para-sm'>Free delivery by 9th Apr</p>
                             </Link>
                             <button className='prod-add-cart-btn bg-warning' onClick={() => onAddToCart(product)}>Add to Cart</button>

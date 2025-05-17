@@ -12,7 +12,7 @@ const Home = () => {
             <Link to='/wedding-gifts'>
             <div className='top-section-card'>
                 <div className='top-img-card'>
-                    <img className='top-section-img' src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2020/09/Potli-Icon.jpg' alt='wedding gifts'/>
+                    <img className='top-section-img' src='https://m.media-amazon.com/images/I/61MElNd1UKL.jpg' alt='wedding gifts'/>
                 </div>
                 <p className='top-para'>Wedding Gifts</p>
             </div>
@@ -20,7 +20,7 @@ const Home = () => {
             <Link to='/housewarming-gifts'>
             <div className='top-section-card'>
                 <div className='top-img-card'>
-                    <img className='top-section-img' src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2020/09/Divine-Icon.jpg' alt='Housewarming Gifts'/>
+                    <img className='top-section-img' src='https://www.fnp.com//images/pr/l/v20230606144001/housewarming-hamper_1.jpg' alt='Housewarming Gifts'/>
                 </div>
                 <p className='top-para'>Housewarming Gifts</p>
             </div>
@@ -28,7 +28,7 @@ const Home = () => {
             <Link to='/gift-combos'>
             <div className='top-section-card'>
                 <div className='top-img-card'>
-                    <img className='top-section-img' src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2020/09/Return-Gifts-Icon.jpg' alt='Gift Combo'/>
+                    <img className='top-section-img' src='https://www.fnp.com//images/pr/l/v20221004202142/all-black-personalised-gift-set_1.jpg' alt='Gift Combo'/>
                 </div>
                 <p className='top-para'>Gift Combos</p>
             </div>
@@ -36,7 +36,7 @@ const Home = () => {
             <Link to='/festival-gifts'>
                 <div className='top-section-card'>
                     <div className='top-img-card'>
-                        <img className='top-section-img' src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2021/06/Varalaksmhi-Icon.png' alt='Navratri and Diwali Gifts'/>
+                        <img className='top-section-img' src='https://i.etsystatic.com/22863033/r/il/bbb681/5182872593/il_1588xN.5182872593_9wof.jpg' alt='Navratri and Diwali Gifts'/>
                     </div>
                     <p className='top-para'>Navratri and Diwali</p>
                 </div>
@@ -76,25 +76,25 @@ const Home = () => {
             <div className='inner-sec-2'>
             <Link to='/wedding-gifts'>
             <div className='card-2'>
-                <img className='img-2' src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2018/04/130036C-768x768.jpg' alt='wedding gifts'/>
+                <img className='img-2' src='https://m.media-amazon.com/images/I/71ZsgkrpSiL._SL1375_.jpg' alt='wedding gifts'/>
                 <p>Wedding Gifts</p>
             </div>
             </Link>
             <Link to='/wedding-gifts'>
             <div className='card-2'>
-                <img className='img-2'  src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2015/03/105002-648x648.jpg' alt='HouseWarming Gifts'/>
+                <img className='img-2'  src='https://m.media-amazon.com/images/I/81HoKPnt3+L._SL1500_.jpg' alt='HouseWarming Gifts'/>
                 <p>HouseWarming Gifts</p>
             </div>
             </Link>
             <Link to='/wedding-gifts'>
             <div className='card-2'>
-                <img className='img-2'  src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2017/06/128013-648x648.jpg' alt='Baby Shower Gifts'/>
+                <img className='img-2'  src='https://m.media-amazon.com/images/I/61wAa63lzoL._SL1500_.jpg' alt='Baby Shower Gifts'/>
                 <p>Baby Shower Gifts</p>
             </div>
             </Link>
             <Link to='/wedding-gifts'>
             <div className='card-2'>
-                <img className='img-2'  src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2018/06/140003G-768x768.jpg' alt='Gifts for Birthday Parties'/>
+                <img className='img-2'  src='https://m.media-amazon.com/images/I/61DFLC0JLEL.jpg' alt='Gifts for Birthday Parties'/>
                 <p>Gifts for Birthday Parties</p>
             </div>
             </Link>
@@ -105,25 +105,25 @@ const Home = () => {
             <div className='inner-sec-2'>
             <Link to='/wedding-gifts'>
             <div className='card-2'>
-                <img className='img-2' src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2019/08/130056D-768x768.jpg' alt='Potli Bags and Clutches'/>
-                <p>Potli Bags and Clutches</p>
+                <img className='img-2' src='https://m.media-amazon.com/images/I/912Qk5c8BCL._AC_UL480_FMwebp_QL65_.jpg' alt='Potli Bags and Clutches'/>
+                <p>Bags</p>
             </div>
             </Link>
             <Link to='/wedding-gifts'>
             <div className='card-2'>
-                <img className='img-2' src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2018/04/148016B-768x768.jpg' alt='Jewellery and Bangle Boxes'/>
-                <p>Jewellery and Bangle Boxes</p>
+                <img className='img-2' src='https://m.media-amazon.com/images/I/41-nVPgWMOL.jpg' alt='Bangles'/>
+                <p>Bangles</p>
             </div>
             </Link>
             <Link to='/wedding-gifts'>
             <div className='card-2'>
-                <img className='img-2' src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2016/09/152007A-648x648.jpg' alt='Handbags'/>
+                <img className='img-2' src='https://m.media-amazon.com/images/I/419i1uHr8CL._SY695_.jpg' alt='Handbags'/>
                 <p>Handbags</p>
             </div>
             </Link>
             <Link to='/wedding-gifts'>
             <div className='card-2'>
-                <img className='img-2' src='https://theoneshop.wpenginepowered.com/wp-content/uploads/2019/06/JP950108_A.jpg-3350A-768x768.jpeg' alt='Fashion Jewellery'/>
+                <img className='img-2' src='https://m.media-amazon.com/images/I/91HYg7+j3-L._SY625_.jpg' alt='Fashion Jewellery'/>
                 <p>Fashion Jewellery</p>
             </div>
             </Link>

@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useContext, useState } from 'react';
+import { BsCurrencyRupee } from "react-icons/bs";
 import { useLocation } from "react-router-dom";
 import Context from '../../context/context';
 import './index.css';
@@ -242,7 +243,7 @@ const SearchListPage = () => {
                                 <Link to='/product-page' state={{product}}>
                                     <img className="search-headphone-img-2" src={product.img} alt={product.name} />
                                     <p className='search-prod-para'>{product.name}</p>
-                                    <p className='search-prod-para'>{product.price}</p>
+                                    <p className='search-prod-para'><BsCurrencyRupee/>{product.price}</p>
                                     <p className='search-prod-para-sm'>Free delivery by 9th Apr</p>
                                 </Link>
                                 <button className='prod-add-cart-btn bg-warning' onClick={() => onAddToCart(product)}>Add to Cart</button>
