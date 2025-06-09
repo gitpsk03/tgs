@@ -110,25 +110,3 @@ git clone https://github.com/yourusername/thegiftshop.git
 cd thegiftshop
 npm install
 npm start
-```
-
----
-
-## 🔮 Future Scope
-
-* Add real backend with Node.js & MongoDB/Firebase
-* Implement JWT-based auth for users and admins
-* Add real-time chat or support widget
-* Add discount coupons, filter by price and brand
-* SEO optimization for product pages
-
----
-
-## 📸 Screenshots (Optional)
-
-You can add image snippets of your app here:
-
-```markdown
-![Home Page](./screenshots/home.png)
-![Cart Page](./screenshots/cart.png)
-``
