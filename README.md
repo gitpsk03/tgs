@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+# 🎁 TheGiftShop – A Gift Shopping Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**TheGiftShop** is a responsive and user-friendly online gift store built with **React.js**, offering a seamless shopping experience across categories such as Wedding Gifts, Festival Gifts, Housewarming Gifts, and Combo Packs. The platform features a cart, payment page, user/admin login, and order tracking – making it a complete gift-shopping solution.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
 
-### `npm start`
+* **Frontend:** React.js, React Router
+* **State Management:** React Context, useState, useEffect
+* **Styling:** CSS
+* **Routing:** React Router DOM
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📦 Features
 
-### `npm test`
+### 🛍️ Core Functionalities
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **User Login**: Login flow with session persistence (stored in localStorage).
+* **Admin Login**: Separate admin access simulation.
+* **Category Pages**: Dedicated sections for Wedding, Festival, Housewarming Gifts, and Combos.
+* **Search Products**: Search by name with dynamic filter rendering.
+* **Cart Management**: Add to cart with dynamic total price calculation.
+* **Checkout Flow**: Cart → Form → Payment → Order Summary.
+* **Responsive Layout**: Mobile-friendly user interface.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔄 Component Breakdown
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Component           | Description                           |
+| ------------------- | ------------------------------------- |
+| `Home`              | Landing page with featured sections   |
+| `UserLogin`         | Login interface for users             |
+| `AdminLogin`        | Admin authentication simulation       |
+| `Cart`              | Displays products added to the cart   |
+| `PaymentPage`       | Simulated payment UI                  |
+| `ProductPage`       | Detailed view of selected product     |
+| `OrderDetails`      | Order confirmation and summary        |
+| `FormDetails`       | User information form before payment  |
+| `SearchListPage`    | Search results based on product query |
+| `Header` & `Footer` | Common layout components              |
+| `ContactPage`       | Contact information or form           |
+| `AboutPage`         | Static info about the platform        |
+| `WeddingGifts`      | Displays curated wedding gift items   |
+| `HousewarmingGifts` | Housewarming product category         |
+| `FestivalGifts`     | Festival gifts display page           |
+| `GiftCombos`        | Combined gift sets                    |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧠 Application State
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Handled via **React Context**:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* `cartList`: List of items in the cart.
+* `total`: Dynamically calculated total based on cart items.
+* `isLoginSuccessful`: Stores login state (initially fetched from localStorage).
+* `searchQuery`: Captures input from header search bar.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```jsx
+<Context.Provider value={{
+  isLoginSuccessful,
+  setIsLoginSuccessful,
+  cartList,
+  setCartList,
+  setAddCartBtnClicked,
+  total,
+  setTotal,
+}}>
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🧭 Routing Overview
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Path                  | Component           | Description                     |
+| --------------------- | ------------------- | ------------------------------- |
+| `/`                   | `Home`              | Homepage                        |
+| `/user-login`         | `UserLogin`         | User login screen               |
+| `/admin-login`        | `AdminLogin`        | Admin login screen              |
+| `/contact`            | `ContactPage`       | Contact details                 |
+| `/about`              | `AboutPage`         | About the platform              |
+| `/search-list-page`   | `SearchListPage`    | Product search results          |
+| `/wedding-gifts`      | `WeddingGifts`      | Wedding gifts                   |
+| `/housewarming-gifts` | `HousewarmingGifts` | Housewarming gift collection    |
+| `/festival-gifts`     | `FestivalGifts`     | Festival gift items             |
+| `/gift-combos`        | `GiftCombos`        | Combo pack gifts                |
+| `/cart`               | `Cart`              | Cart items view                 |
+| `/product-page`       | `ProductPage`       | Product detail page             |
+| `/payment-page`       | `PaymentPage`       | Checkout/payment screen         |
+| `/order-details`      | `OrderDetails`      | Final order summary             |
+| `/form-details`       | `FormDetails`       | Pre-payment address and details |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 💡 Highlights
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* **Auto Price Update**: Total price automatically recalculates using `useEffect` whenever `cartList` changes.
+* **Search Propagation**: Search query passed from `Header` to `SearchListPage` using props.
+* **Login State**: Login is simulated using `localStorage` and managed with `isLoginSuccessful`.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📝 How to Run Locally
 
-### Making a Progressive Web App
+```bash
+git clone https://github.com/yourusername/thegiftshop.git
+cd thegiftshop
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🔮 Future Scope
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Add real backend with Node.js & MongoDB/Firebase
+* Implement JWT-based auth for users and admins
+* Add real-time chat or support widget
+* Add discount coupons, filter by price and brand
+* SEO optimization for product pages
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📸 Screenshots (Optional)
 
-### `npm run build` fails to minify
+You can add image snippets of your app here:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```markdown
+![Home Page](./screenshots/home.png)
+![Cart Page](./screenshots/cart.png)
+``
