@@ -144,3 +144,97 @@
 .home-para-3{
     margin-left: 90px;
 }
+
+@media screen and (max-width: 414px) {
+  .home-heading {
+    margin: 20px auto;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .top-section {
+    flex-direction: column;
+    height: auto;
+    gap: 20px;
+  }
+
+  .top-section-card {
+    margin: 0 auto;
+  }
+
+  .top-img-card {
+    width: 100px;
+    height: 100px;
+  }
+
+  .top-section-img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .carousel-card,
+  .carousel-container,
+  .carousel-img {
+    width: 100vw;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .carousel-img {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+  }
+
+  .slider-section {
+    width: 95vw;
+    margin-left: 0;
+  }
+
+  .section-2 {
+    width: 95vw;
+    margin: 30px auto;
+    height: auto;
+  }
+
+  .inner-sec-2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .card-2 {
+    margin: 0 auto;
+  }
+
+  .img-2 {
+    width: 180px;
+    height: 180px;
+  }
+
+  .home-para-2 {
+    text-align: center;
+    margin: 30px 0 10px 0;
+  }
+
+  .review-section {
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    gap: 20px;
+    margin: 20px 0;
+  }
+
+  .home-card-3 {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .home-para-3 {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+
