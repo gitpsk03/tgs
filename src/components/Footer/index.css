@@ -7,3 +7,14 @@
     align-items: center;
     margin-bottom: -40px;
 }
+
+
+@media (max-width: 414px) {
+    .footer {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 10px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+}
