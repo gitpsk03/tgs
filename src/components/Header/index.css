@@ -151,4 +151,73 @@ ul {
     margin-left: 100px;
 }
 
+@media screen and (max-width: 414px) {
+  .nav-container {
+    width: 100vw;
+    margin-left: 0;
+    padding: 10px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  ul {
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .search-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .head-search-bar {
+    width: 80vw;
+    font-size: 14px;
+  }
+
+  .header-para, .header-para-abt,
+  .account-dropdown, .logout-btn {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .nav-con-2 {
+    width: 100vw;
+    margin-left: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+    height: auto;
+  }
+
+  .category-dropdown {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .nav-para, .nav-para-2 {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .cart-con {
+    width: auto;
+    margin: 10px 0 0 0;
+    justify-content: flex-start;
+  }
+
+  .cart-img {
+    margin: 0 0 0 10px;
+  }
+}
+
+
 
